@@ -627,7 +627,7 @@ input[type = "checkbox"]{
     }
     .service-section{
         overflow-x: hidden;
-        padding: 80px 27px 80px 27px;
+        padding: 80px 20px 80px 20px;
 
     }
     .service-section h1{
@@ -683,7 +683,7 @@ input[type = "checkbox"]{
         height: 4.5vh;
     }
     .select p{
-        font-size: 11px;
+        font-size: 13px;
         line-height: 1.5;
     }
     .track-and-trace-section{
@@ -763,6 +763,21 @@ input[type = "checkbox"]{
     }
     .what-we-do img{
         width: 20%;
+        margin-bottom: 10px;
     }
-    
+    .what-we-do{
+        padding: 25px;
+    }
+    .who-we-are-text p{
+        line-height: 1.5;
+    }
+    .who-we-are-text h4{
+        line-height: 1.5;
+    }
+    .img-text{
+        margin-bottom: 15px;
+    }
+    .who-we-are-text p{
+        margin-bottom: 1.2rem;
+    }
 }
