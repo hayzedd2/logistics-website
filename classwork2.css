@@ -1,0 +1,768 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Poppins:wght@500&family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.classwork-section{
+    font-family: 'jost', sans-serif;
+    background-image: url(./images/pexels-chanaka-906494.jpg);
+    height: auto;
+    padding: 30px 20px 150px 60px ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+   
+    
+}
+
+.logo{
+    z-index: 2;
+    
+}
+.logo h1{
+    z-index: 2;
+    color: white;
+    font-family: 'poppins',sans-serif;
+    font-size: 30px;
+    
+}
+.classwork-section::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.header{
+   
+   
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    z-index: 2;
+    margin-bottom: 50px;
+   
+}
+nav{
+    flex: 1;
+    text-align: right;
+    z-index: 2;
+    
+    
+}
+nav ul a li{
+   display: inline-block;
+   
+    padding: 30px;
+    z-index: 2;
+   
+    color: white;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-family: 'source sans pro';
+    cursor: pointer;
+}
+nav ul a li:hover{
+    color: orangered;
+}
+ .list a button{
+    display: inline-block;
+    background-color: orangered;
+    width: 10vw;
+    height: 6vh;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    z-index: 2;
+    font-family: 'source sans pro',sans-serif;
+}
+.active{
+    color: orangered;
+}
+.list{
+    z-index: 2;
+}
+
+.body{
+    margin-left: 5%;
+    max-width: 1200px;
+    line-height: 1.5;
+}
+.body h1{
+    font-size: 3.4rem;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+    color: white;
+    font-family: 'manrope', sans-serif;
+    z-index: 2;
+    position: relative;
+}
+.body h1 span{
+    color: orangered;
+}
+.body p{
+    padding-bottom: 30px;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 1.2rem;
+    z-index: 2;
+    position: relative;
+    color: white;
+    margin-bottom: 20px;
+}
+.body a button{
+    background-color: transparent;
+    border: 2px solid white;
+    font-family: 'source sans pro',sans-serif;
+    width: 10vw;
+    height: 6vh;
+    text-transform: uppercase;
+    color: white;
+    
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.body a button:hover{
+    background-color: orangered;
+    border: none;
+    transition: all ease-in-out 0.3s;
+}
+/* 1st section ends */
+ .what-we-do-section{
+    padding: 100px 20px 100px 20px;
+   
+ }
+ .what-we-do{
+    text-align: center;
+    box-shadow: 0px 10px 20px 0px rgba(21, 37, 66, 0.28);
+    padding: 25px;
+    border-radius: 10px;
+ }
+ .what-we-do-container{
+    max-width: 1200px;
+    margin: 0 auto;
+ }
+ .what-we-do-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+    gap: 30px;
+    margin-top: 3rem;
+ }
+ .what-we-do img{
+    width: 40%;
+    margin-bottom: 20px;
+ }
+ .what-we-do h3{
+    text-transform: capitalize;
+    font-size: 24px;
+    font-family: 'source sans pro',sans-serif;
+ }
+ .what-we-do-heading{
+    text-align: center;
+    
+
+ }
+ .what-we-do-heading h1{
+    text-transform: capitalize;
+    font-family: 'manrope',sans-serif;
+    font-size: 42px;
+    margin-bottom: 1rem;
+   
+    line-height: 1.5em;
+    font-weight: 600;
+ }
+ .what-we-do-heading h1 span{
+    color:  orangered;
+ }
+ .what-we-do-heading p{
+    font-size: 1.2rem;
+    
+    font-family: 'jost',sans-serif;
+    font-weight: 900;
+ }
+ .what-we-do i{
+    color: orangered;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+ }
+ .what-we-do h3{
+    text-transform: capitalize;
+    font-family: 'source sans pro',sans-serif;
+ }
+ .what-we-do p{
+    margin-top: 1rem;
+    font-family: 'jost',sans-serif;
+    font-weight: 900;
+ }
+/* end */
+
+.who-we-are-section{
+    padding: 100px 20px 100px 20px;
+    
+ 
+
+}
+.who-we-are-heading{
+    margin-left: 3%;
+    font-family: 'source sans pro',sans-serif;
+    font-size: 1.7rem;
+    text-transform: capitalize;
+}
+.who-we-are-heading h1 span{
+    color: orangered;
+    margin-left: 4.5%;
+}
+
+.who-we-are-grid{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+.who-we-are-img{
+    grid-column: span 7;
+}
+.who-we-are-text{
+    grid-column: span 5;
+    margin-top: 20%;
+    padding-top: 20%;
+}
+.who-we-are-img img{
+    max-width: 100%;
+
+}
+.who-we-are-text h4{
+    font-family: 'source sans pro',sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.who-we-are-text h2{
+    font-family: 'source sans pro',sans-serif;
+    line-height: 1.7;
+    font-size: 1.4rem;
+    color: orangered;
+}
+.who-we-are-text p{
+    font-family: 'jost',sans-serif;
+    font-weight: 700;
+    line-height: 1.6;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.img-text{
+    margin-bottom: 20px;
+}
+.img-text img{
+    width: 15%;
+    background-color: ghostwhite;
+    border-radius: 50%;
+}
+.img-text p{
+    display: inline-block;
+    text-transform: capitalize;
+
+}
+.img-text p span{
+    font-family: 'source sans pro';
+    font-size: 18px;
+}
+.who-we-are-button button{
+    width: 13vw;
+    height: 5.5vh;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+    background-color: orangered;
+    color: white;
+
+}
+.who-we-are-button button a{
+    text-decoration: none;
+    color: white;
+}
+
+/* ends */
+.service-section{
+    padding: 100px 20px 100px 20px;
+    
+}
+.service-heading{
+    text-align: center;
+    font-family: 'source sans pro',sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.service-heading h1{
+   
+    font-size: 42px;
+    line-height: 1.5em;
+}
+.service-heading h1 span{
+    color: orangered;
+}
+.service-heading h3{
+    font-family: 'jost',sans-serif;
+    font-weight: 900;
+    margin-top: 1rem;
+}
+.service{
+   text-align: center;
+   box-shadow: 0px 10px 20px 0px rgba(21, 37, 66, 0.28);
+   padding: 30px;
+   margin-top: 1.5rem;
+   border-radius: 10px;
+}
+.service img{
+    width: 30%;
+}
+.service a button{
+    width: 12vw;
+    height: 5.5vh;
+    background-color: white;
+    border: none;
+    text-transform: capitalize;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    color: orangered;
+    
+    
+   margin-top: 20%;
+}
+.service-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    max-width: 1140px;
+    margin: 0 auto;
+    gap: 20px;
+    margin-top: 2rem;
+}
+.service h2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'poppins0-',sans-serif;
+    font-size: 26px;
+    text-transform: capitalize;
+    line-height: 1.6em;
+}
+.service p{
+    font-family: 'jost',sans-serif;
+    font-weight: 900;
+
+}
+.service:hover{
+    background-color: orangered;
+    transition: all ease-in-out 0.3s;
+}
+.service:hover i{
+    color: black;
+}
+.service:hover h2,
+.service:hover p{
+    color: white;
+}
+/* ends */
+.request-shipment-section{
+    padding: 100px 20px 60px 20px;
+    background-color: #343a40;
+    color: white;
+}
+.request-shipment-form{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #384047 ;
+    padding: 60px 40px 60px 40px;
+}
+.request-shipment-heading{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.request-shipment-heading h1{
+    font-family: 'source sans pro',sans-serif;
+    text-transform: capitalize;
+    font-size: 43px;
+}
+.request-shipment-heading h1 span{
+    color: orangered;
+}
+.form h2{
+    font-family: 'poppins',sans-serif;
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.form-grid input{
+    width: 30%;
+    height: 5vh;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+    margin-bottom: 20px;
+    
+}
+.form-grid input::placeholder{
+    text-transform: capitalize;
+}
+
+.form-grid select{
+    width: 30%;
+    height: 5vh;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+   margin: 10px;
+}
+.form-1 input{
+    width: 45.5%;
+    height: 5vh;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+   margin: 10px;
+   margin-top: 20px;
+}
+.form-1 input::placeholder{
+    text-transform: capitalize;
+}
+.select{
+    margin: 20px 10px 25px 10px;
+}
+.select p{
+    display: inline-block;
+    margin-right: 20px;
+    text-transform: capitalize;
+    font-family: 'manrope',sans-serif;
+    
+}
+
+.form-button a button{
+    width: 11.5vw;
+    height: 5.5vh;
+    border: none;
+    background-color: orangered;
+    color: white;
+    font-family: 'source sans pro',sans-serif;
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.form-button a button:hover{
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+/* ends */
+
+.track-and-trace-section{
+    padding: 30px 20px 100px 20px;
+    background-color: #343a40;
+    color: white;
+}
+.track-and-trace-heading{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.track-and-trace-heading h1{
+    text-transform: capitalize;
+    font-family: 'source sans pro',sans-serif;
+    font-size: 43px;
+}
+.track-and-trace-heading h1 span{
+    color: orangered;
+}
+.track-and-trace-form{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #384047 ;
+    padding: 60px 40px 60px 40px;
+}
+.trace-form h2{
+    font-family: 'poppins',sans-serif;
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.trace-form select{
+    width: 90%;
+    height: 5vh;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+   
+    margin: 10px;
+}
+.trace-form input{
+    width: 90%;
+    height: 5vh;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+    margin-bottom: 25px;
+}
+.trace-form input::placeholder{
+    text-transform: capitalize;
+}
+.trace-button a button{
+    width: 11.5vw;
+    height: 5.5vh;
+    border: none;
+    background-color: orangered;
+    color: white;
+    font-family: 'source sans pro',sans-serif;
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.trace-button a button:hover{
+    background-color: transparent;
+    border: 2px solid white;
+}
+/* ends */
+.price-section{
+    padding: 100px 20px 100px 20px;
+}
+.price-grid{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+.price-text{
+    grid-column: span 6;
+}
+.price-tag{
+    grid-column: span 6;
+}
+.price-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+}
+
+
+.burger img{
+    display: none;
+}
+input[type = "checkbox"]{
+    display: none;
+}
+
+@media only screen and (max-width:991px){
+    nav ul{
+        position: fixed;
+        top: 0;
+        left:-100%;
+        width: 100%;
+        height: auto;
+       
+        max-width: 250px;
+        background-color: white;
+        transition: all ease-in 0.3s;
+        z-index: 1;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
+        
+        
+        
+       
+    }
+    .body h1{
+        font-size: 28px;
+    }
+    .body{
+        margin-left: 0;
+        max-width: none;
+    }
+    .body p{
+        font-size: 16px;
+    }
+    .classwork-section{
+        padding: 15px 10px 80px 20px ;
+    }
+    .body a button{
+        width: 38%;
+        height: 5.5vh;
+    }
+    .logo h1 {
+        font-size: 15px;
+    }
+    .burger img{
+        display: flex;
+        cursor: pointer;
+        width: 10%;
+        margin-left: 80%;
+       
+
+    } 
+    nav #show-burger:checked ~ ul{
+        left: 0%;
+        
+    
+    }
+    .service-section{
+        overflow-x: hidden;
+        padding: 80px 27px 80px 27px;
+
+    }
+    .service-section h1{
+        font-size: 24px;
+    }
+    .service-section h3{
+        font-size: 18px;
+    }
+    .service{
+        padding: 15px;
+
+    }
+    .service h2{
+        font-size: 18px;
+    }
+    .service a button{
+        width: 38%;
+        height: 5.5vh;
+    }
+    .request-shipment-section{
+        padding: 80px 27px 0 27px;
+        overflow-x: hidden;
+    }
+    .request-shipment-heading h1{
+        font-size: 24px;
+    }
+    .form-grid input{
+        width: 100%;
+        margin: 0;
+       margin-bottom: 20px;
+       height: 4.5vh;
+        
+    }
+    .form-grid select{
+        width: 100%;
+        margin: 0;
+       margin-bottom: 20px;
+       height: 4.5vh;
+        
+    }
+    .request-shipment-form{
+        padding: 40px 20px 60px 20px;
+        
+    }
+    .form-1 input{
+        width: 100%;
+        margin: 0;
+       margin-bottom: 20px;
+       height: 4.5vh;
+    }
+    .form-button a button{
+        width: 40%;
+        height: 4.5vh;
+    }
+    .select p{
+        font-size: 11px;
+        line-height: 1.5;
+    }
+    .track-and-trace-section{
+        padding: 40px 27px 40px 27px;
+        overflow-x: hidden;
+    }
+    .track-and-trace-form{
+        padding: 40px 20px 60px 20px;
+    }
+    .track-and-trace-heading h1{
+        font-size: 24px;
+    }
+    .trace-form select{
+        width: 100%;
+        margin: 0;
+       margin-bottom: 20px;
+       height: 4.5vh;
+
+    }
+    .form h2{
+        font-size: 15px;
+    }
+    .trace-form input{
+        width: 100%;
+        margin: 0;
+       margin-bottom: 20px;
+       height: 4.5vh;
+
+    }
+    .trace-form h2{
+        font-size: 15px;
+    }
+    .trace-button a button{
+        width: 40%;
+        height: 4.5vh;
+    }
+    .who-we-are-grid{
+        gap: 0;
+    }
+    .who-we-are-img,
+    .who-we-are-text{
+        grid-column: span 12;
+        margin: 0;
+        padding: 0;
+    }
+    .who-we-are-text{
+        margin-right: 5%;
+    }
+    .who-we-are-section{
+        padding: 60px 27px 40px 27px;
+        overflow-x: hidden;
+    }
+    .who-we-are-heading h1{
+        font-size: 26px;
+    }
+
+    .who-we-are-button button{
+        width: 40%;
+        height: 4.5vh;
+    }
+    .what-we-do-section{
+        overflow-x: hidden;
+        padding: 60px 27px 40px 27px;
+    }
+    .what-we-do-heading h1{
+        font-size: 24px;
+    }
+    .what-we-do-heading p{
+        font-size: 18px;
+    }
+    .what-we-do-grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+        gap: 10px;
+
+
+    }
+    .what-we-do img{
+        width: 20%;
+    }
+    
+}
